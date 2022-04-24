@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/index" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="phone">Phone</label>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" required><br>
+        <label for="cpass">Confirm Password</label>
+        <input type="password" name="cpassword" id="cpass" required><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

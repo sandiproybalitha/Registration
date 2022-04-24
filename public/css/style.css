@@ -1,0 +1,55 @@
+
+h1
+{
+    text-align: center;
+    margin-top: 10%;
+    color: blueviolet;
+}
+.btn
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btn button:not(:first-child)
+{
+    margin-left: 50px;
+}
+button
+{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.logOut
+{
+    position: absolute;
+    right: 30px;
+    right: 30px;
+    top: 20px;
+}
+form
+{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.main-container
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-container form
+{
+    margin: 10px 500px;
+}
+.main-container form input
+{
+    margin: 10px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+}
